@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 print('This is a test of twobessel module written by Xiao Fang.')
 print('nu is required to be between -ell to 2.')
-k, pk = np.loadtxt('Pk_test', usecols=(0,1), unpack=True)
+k, pk = np.loadtxt('Pkz0.0.dat', usecols=(0,1), unpack=True)
 
 # k = log_extrap(k, 200, 200)
 # pk= log_extrap(pk, 200, 200)

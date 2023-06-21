@@ -1,0 +1,22 @@
+cosmology:
+  H0 : 67.4 
+  ombh2 : 0.0224
+  omch2 :  0.120
+  mnu : 0.00
+  omk : 0.0 
+  tau : 0.054
+
+initpower:
+  As : 2.1e-9
+  ns : 0.965
+  r : 0.0
+
+set_matterpower:
+  redshifts : [0.]
+  kmax : 100
+  silent : True
+
+get_matterpower:
+  minkh : 1.e-4
+  maxkh : 1. 
+  npoints : 1000
