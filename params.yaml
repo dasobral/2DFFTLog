@@ -1,14 +1,14 @@
 cosmology:
-  H0 : 67.4 
-  ombh2 : 0.0224
-  omch2 :  0.120
+  H0 : 67.7 
+  ombh2 : 0.022458
+  omch2 :  0.142586
   mnu : 0.00
   omk : 0.0 
   tau : 0.054
 
 initpower:
-  As : 2.1e-9
-  ns : 0.965
+  As : 2.105e-09
+  ns : 0.9665
   r : 0.0
 
 set_matterpower:
@@ -18,5 +18,5 @@ set_matterpower:
 
 get_matterpower:
   minkh : 1.e-4
-  maxkh : 1. 
-  npoints : 1000
+  maxkh : 0.25 
+  npoints : 10000
