@@ -2,7 +2,7 @@ cosmology:
   H0 : 67.7 
   ombh2 : 0.022458
   omch2 :  0.142586
-  mnu : 0.00
+  mnu : 0.06
   omk : 0.0 
   tau : 0.054
 
@@ -13,10 +13,10 @@ initpower:
 
 set_matterpower:
   redshifts : [0.]
-  kmax : 100
+  kmax : 1.0
   silent : True
 
 get_matterpower:
   minkh : 1.e-4
-  maxkh : 0.3 
-  npoints : 20000
+  maxkh : 0.25 
+  npoints : 15000
